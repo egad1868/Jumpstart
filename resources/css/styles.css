@@ -10,6 +10,8 @@ html {
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 1rem;
+  color: 0 0 0 0.7;
+  line-height: 1.4;
 }
 
 a {
@@ -78,7 +80,7 @@ h4 {
 
 /* Jumbotron Styles */
 .jumbotron-bike {
-  background-image: url(/resources/images/jumbotron-bike.jpg);
+  background-image: url(resources/images/jumbotron-bike.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
