@@ -11,13 +11,5 @@ $( document ).ready(function() {
        pauseOnHover: false,
    });
 
-   var userScroll = 0;
-   $('.navbar').scroll();
-   var userScrollUp = $(this).scrollTop() {
-     if ('userScrollUp + '-' + userScroll > 50') {
-    var navbarHeight = $('.navbar').css('height');
-    $('.navbar').animate({top: '-' + navbarHeight}, 150);
-
-  }
-   }
+  
 });
