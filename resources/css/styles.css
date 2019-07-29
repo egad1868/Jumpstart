@@ -87,7 +87,7 @@ h4 {
 
 /* Nav Styles */
 .jumbotron {
-  background-image: url(/resources/images/jumbotron-bike.jpg);
+  background-image: url(../resources/images/jumbotron-bike.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
