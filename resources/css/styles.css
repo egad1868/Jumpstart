@@ -52,21 +52,20 @@ h2 {
 h3 {
   font-size: 1.7rem;
   color: #399bd1;
+  font-weight: bold;
 
 }
 
 
 h4 {
   font-size: 1.3rem;
+  font-weight: bold;
 
 }
 h4:hover {
     color: #399bd1;
 }
 
-h3, h4, {
-  font-weight: bold;
-}
 .btn-primary {
   background-color: #399bd1;
   width: 11.4rem;
