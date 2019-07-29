@@ -78,10 +78,11 @@ h4 {
 
 /* Jumbotron Styles */
 .jumbotron-bike {
-  background-image: url(./resources/images/jumbotron-bike.jpg);
+  background-image: url(../resources/images/jumbotron-bike.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 .jumbotron-bike h1 {
   font-size: 7.1rem;
