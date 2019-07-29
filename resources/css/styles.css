@@ -70,6 +70,25 @@ h4 {
 }
 
 /* Nav Styles */
-nav li a:active {
+.navbar-default .navbar-nav > .active > a {
+  font-size: 1.1rem;
+  color: inherit;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
   color: #399bd1;
+}
+
+/* @include media-breakpoint-down(md) {
+   .navbar-brand img {
+     display: none;
+   }
+  } */
+
+/* Nav Styles */
+.jumbotron {
+  background-image: url(/resources/images/jumbotron-bike.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
