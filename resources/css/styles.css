@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 1rem;
-  color: 0 0 0 0.7;
+  color: rgba(0 0 0 0.7);
   line-height: 1.4;
 }
 
@@ -68,12 +68,12 @@ h4:hover {
 }
 
 /* Nav Styles */
-.navbar-nav > .active > li a {
+.navbar-nav > .nav-link > .active > a {
   font-size: 1.1rem;
   color: inherit;
 }
 
-.navbar-nav > .active > li a:hover {
+.navbar-nav > .nav-link > .active > a:hover {
   color: #399bd1;
 }
 
@@ -85,7 +85,7 @@ h4:hover {
 
 /* Jumbotron Styles */
 .jumbotron-bike {
-  background-image: url(resources/images/jumbotron-bike.jpg);
+  background-image: url(../images/jumbotron-bike.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -113,6 +113,7 @@ h4:hover {
   background-color: #399bd1;
   width: 11.4rem;
   padding: 1.3rem 0;
+  margin-top: 2.8rem;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 
 }
