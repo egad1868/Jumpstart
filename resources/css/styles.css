@@ -70,6 +70,6 @@ h4 {
 }
 
 /* Nav Styles */
-nav li:active {
+nav li a:active {
   color: #399bd1;
 }
