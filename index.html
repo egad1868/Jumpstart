@@ -2,67 +2,79 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Jumpstart</title>
-  <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./resources/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" href="./resources//css/styles.css" type="text/css">
-  </head>
-  <body>
-    <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
-        <ul role="presentation" class="navbar-nav navbar-collapse">
-          <li class="nav-item active"><a class="nav-link" href="#">Explore</a></li>
-          <li class="nav-item"><a class="nav-link"href="#">Start a Project</a></li>
-          <li class="nav-item"><a class="nav-link"href="#">About Us</a></li>
-        </ul>
-        <a class="navbar-brand" href="#home"> <img src="./resources/images/logo.png" alt="Company Logo"> </a>
-      </nav>
-    </header>
-    <div class="carousel">
-      <div class="jumbotron jumbotron-bike">
-        <h1>Get Going</h1>
-        <p class="m-auto">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-        <a class="btn btn-primary btn-large" href="#jumpIn">Jump In</a>
-      </div>
-      <div class="jumbotron jumbotron-flowers">
-        <h1>GET THINKING.</h1>
-<p class="m-auto">Meet like-minded individuals who will help fuel your creative juices.</p>
-        <a class="btn btn-primary btn-large" href="#jumpIn">Jump In</a>
-      </div>
-      <div class="jumbotron jumbotron-beer">
-        <h1>GET CREATING.</h1>
-  <p class="m-auto">Stop overthinking projects and begin putting them out into the world.</p>
-        <a class="btn btn-primary btn-large" href="#jumpIn">Jump In</a>
-      </div>
-      <div class="jumbotron jumbotron-duffel">
-        <h1>GET STARTED.</h1>
-<p class="m-auto">What are you waiting for? Today's the day for your next big idea.</p>
-        <a class="btn btn-primary btn-large" href="#jumpIn">Jump In</a>
-      </div>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Jumpstart Demo</title>
+    <link rel="icon" href="./resources/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./resources//css/styles.css" type="text/css">
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  	<script src="./resources/js/main.js"></script>
+</head>
+<body>
+<!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+       <ul role="presentation" class="navbar-nav navbar-collapse">
+         <li class="nav-item active"><a class="nav-link" href="#">Explore</a></li>
+         <li class="nav-item"><a class="nav-link"href="#">Start a Project</a></li>
+         <li class="nav-item"><a class="nav-link"href="#">About Us</a></li>
+       </ul>
+       <img class="navbar-brand navbar-right collapse navbar-collapse" src="./resources/images/logo.png" alt="Company Logo">
     </div>
+  </nav>
+<!-- Jumbotron -->
+  <div class="carousel">
+    <div class="jumbotron background-bike">
+      <h1>Get Going</h1>
+      <p class="m-auto">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+    </div>
+    <div class="jumbotron background-flowers">
+      <h1>GET THINKING.</h1>
+      <p class="m-auto">Meet like-minded individuals who will help fuel your creative juices.</p>
+    </div>
+    <div class="jumbotron background-beer">
+      <h1>GET CREATING.</h1>
+      <p class="m-auto">Stop overthinking projects and begin putting them out into the world.</p>
+    </div>
+    <div class="jumbotron background-duffel">
+      <h1>GET STARTED.</h1>
+      <p class="m-auto">What are you waiting for? Today's the day for your next big idea.</p>
+    </div>
+  </div>
+  <div class="relative-wrapper">
+   <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
+ </div>
+
+ <!-- Featured Project -->
+ <div class="container featured-project">
     <div class="row ">
       <h3 class="mb-4">Featured Project</h3>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-12">
-      <div class="image-container">
-        <img class="w-100" src="./resources/images/featured-project.png" alt="Red Barn">
-      </div>
+        <div class="image-container">
+          <a href="#"><img class="w-100" src="./resources/images/featured-project.png" alt="Red Barn"></a>
+        </div>
       </div>
       <div class="col-lg-6 col-md-12">
-        <div class="row">
-        <div class="col-6">
-          <h4>DeFrost: A Documentary</h4>
-          <p>by Leo De Firenze</p>
-          <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
-        </div>
-        <div class="col-6">
-          <h4>Project Categories</h4>
+        <h4>DeFrost: A Documentary</h4>
+        <p>by Leo De Firenze</p>
+        <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
+      </div>
+      <div class="col-6">
+        <h4>Project Categories</h4>
           <ul role="presentation">
             <li>Art</li>
             <li>Books</li>
@@ -81,18 +93,20 @@
             <li>Ventriliquist Figures</li>
             <li>Yoyos</li>
           </ul>
-        </div>
-      </div>
       </div>
     </div>
+  </div>
+
+ <!-- Projects -->
+  <div class="container">
     <div class="row pb-5">
       <div class="row">
-        <h3>Projects</h3>
+        <h3 class="col-xs-12">Projects</h3>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-12">
           <div class="image-container">
-            <img src="./resources/images/project1.png" alt="Person Sitting">
+            <a href="#"><img src="./resources/images/project1.png" alt="Person Sitting"></a>
           </div>
           <h4>The Right Tights</h4>
           <p>by Riley Mae</p>
@@ -100,7 +114,7 @@
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="image-container">
-            <img src="./resources/images/project2.png" alt="Room &amp; Furniture">
+            <a href="#"><img src="./resources/images/project2.png" alt="Room &amp; Furniture"></a>
           </div>
           <h4>Peppermint Smart Home</h4>
           <p>by Brian McDonald</p>
@@ -108,24 +122,20 @@
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="image-container">
-            <img src="./resources/images/project3.png" alt="Restaurant Sign">
+            <a href="#"><img src="./resources/images/project3.png" alt="Restaurant Sign"></a>
           </div>
           <h4>American Streetlife</h4>
           <p>by Patrick Wallace</p>
           <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
         </div>
       </div>
-  </div>
-  <footer>
-    <h2>Having trouble thinking of an idea?</h2>
-    <p class="m-auto">Inventor's block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
-    <a class="btn btn-primary" type="button" name="button">Learn More</a>
-  </footer>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="./resources/js/main.js"></script>
-  </body>
+    </div>
+    <!-- Help -->
+<footer class="container-fluid help">
+  <h2>Having trouble thinking of an idea?</h2>
+  <p class="m-auto">Inventor's block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
+  <a class="btn btn-primary" type="button" name="button">Learn More</a>
+</footer>
+
+</body>
 </html>
